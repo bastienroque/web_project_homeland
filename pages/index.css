@@ -173,6 +173,7 @@ body {
 
 .reservation__title {
     margin: 0 auto;
+    margin-bottom: 80px;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -183,7 +184,7 @@ body {
     margin-bottom: 120px;
 }
 
-.form__form {
+.form {
     display: flex;
     flex-direction: column;
 }
