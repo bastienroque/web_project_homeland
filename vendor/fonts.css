@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Inter", "Aria", sans-serif;
+    src: url("./fonts/Inter-Regular.woff2") format("woof2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter", "Aria", sans-serif;
+    src: url("./fonts/Inter-Black.woff2") format("woof2");
+    font-weight: 900;
+}
