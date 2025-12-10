@@ -13,3 +13,4 @@ Inclui várias partes tendo em conta as recéns aprendizagens sobre design respo
 - Fonts.css
 
 # Link para GitHub Pages
+https://bastienroque.github.io/web_project_homeland/
