@@ -7,3 +7,9 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 544px) {
+    .content {
+        width: 100%;
+    }
+}
