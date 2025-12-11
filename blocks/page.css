@@ -3,7 +3,6 @@ body {
 }
 
 .page {
-    min-width: 1024px;
     background-color: #2A2C2F;
     color: white;
     font-family: "Inter", "Aria", sans-serif;

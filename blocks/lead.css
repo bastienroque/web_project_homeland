@@ -5,10 +5,14 @@
     align-items: center;
 }
 
+.lead__text-wrapper {
+    margin: auto 132px;
+    text
+}
+
 .lead__title {
     font-size: 96px;
     font-weight: 900;
-    width: 720px;
     margin: 0;
     margin-top: 90px;
 }
@@ -16,7 +20,6 @@
 .lead__subtitle {
     font-size: 30px;
     font-weight: 400;
-    width: 720px;
     margin: 0;
     margin-top: 32px;
 }
@@ -36,6 +39,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .lead__text-wrapper {
+    margin: auto 24px;
+    }
+
     .lead__title {
         font-size: 75px;
     }
@@ -53,6 +60,10 @@
 }
 
 @media screen and (max-width: 544px) {
+    .lead__text-wrapper {
+    margin: auto 16px;
+    }
+
     .lead__title {
         font-size: 40px;
         margin-top: 50px;
