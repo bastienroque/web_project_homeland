@@ -70,7 +70,6 @@
 }
 
 .place__button {
-    width: max-content;
     font-size: 18px;
     text-decoration: none;
     background-image: linear-gradient(to right, #0278FE, #003A7B);
@@ -79,6 +78,7 @@
     border-radius: 4px;
     padding: 13px 20px;
     box-shadow: 5px 5px 10px rgba(0,0,0,.25);
+    align-self: flex-start;
 }
 
 .place__button:hover {
@@ -90,6 +90,10 @@
         margin-top: 88px;
         margin-left: 24px;
         margin-right: 24px;
+    }
+
+    .place {
+        column-gap: 28px;
     }
 
     .place__title {
@@ -114,5 +118,9 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    }
+
+    .place__button {
+    font-size: 14px;
     }
 }
