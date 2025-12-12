@@ -1,6 +1,9 @@
 .intro {
     margin-top: 92px;
-    margin-right: 154px;
+    padding-right: 154px;
+    margin-left: 148px;
+    margin-right: 148px;
+    max-width: 1280px;
 }
 
 .intro__title {
@@ -24,6 +27,7 @@
 }
 
 .intro__text-description {
+    font-size: 16px;
     line-height: 1.6;
     margin-top: 32px;
 }
@@ -33,6 +37,7 @@
         margin-top: 90px;
         margin-right: 24px;
         margin-left: 24px;
+        padding-right: 0;
     }
 
     .intro__title {

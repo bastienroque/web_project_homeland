@@ -1,0 +1,118 @@
+.places {
+    margin-top: 92px;
+    margin-left: 148px;
+    margin-right: 148px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+.place__title {
+    max-width: 460px;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.place__text-website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.place__text-website__url-heading {
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 8px;
+}
+
+.place__text-website__artist {
+    font-size: 18px;
+}
+
+.place__image_and_button-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.place__image {
+    width: 100%;
+    box-shadow: 10px 10px 25px rgba(0,0,0,.5);
+}
+
+.place__image:hover {
+    filter: brightness(50%)
+}
+
+.place__paragraph-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+}
+
+.place__paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.place__button {
+    width: max-content;
+    font-size: 18px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #0278FE, #003A7B);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 13px 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.25);
+}
+
+.place__button:hover {
+    background-image: linear-gradient(to right, rgba(2, 120, 254, .5), rgba(0, 58, 123, .5));
+}
+
+@media screen and (max-width: 1024px){
+    .places {
+        margin-top: 88px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    }
+    
+    .place__paragraph {
+    font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .places {
+        margin-top: 62px;
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 50px;
+    }
+
+    .place {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+}

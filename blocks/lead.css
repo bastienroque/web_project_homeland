@@ -3,10 +3,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 148px;
+    margin-right: 148px;
 }
 
 .lead__text-wrapper {
-    margin: auto 132px;
+    margin-left: 132px;
+    margin-right: 132px;
 }
 
 .lead__title {
@@ -38,6 +41,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .lead {
+        margin-left: 0;
+        margin-right: 0;        
+    }
+
     .lead__text-wrapper {
     margin: auto 24px;
     }
@@ -76,5 +84,6 @@
         width: 100%;
         height: 200px;
         overflow: hidden;
+        margin-top: 40px;
     }
 }
