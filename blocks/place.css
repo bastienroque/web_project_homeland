@@ -18,7 +18,7 @@
     justify-content: flex-end;
 }
 
-.place__text-website__url-heading {
+.place__text-website-url-heading {
     font-size: 12px;
     line-height: 1;
     letter-spacing: 2px;
@@ -27,7 +27,7 @@
     margin-bottom: 8px;
 }
 
-.place__text-website__artist {
+.place__text-website-artist {
     font-size: 18px;
 }
 
