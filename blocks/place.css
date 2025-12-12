@@ -31,7 +31,7 @@
     font-size: 18px;
 }
 
-.place__image_and_button-wrapper {
+.place__media {
     width: 100%;
     display: flex;
     flex-direction: column;
